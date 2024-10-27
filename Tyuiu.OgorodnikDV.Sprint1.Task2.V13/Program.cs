@@ -37,7 +37,7 @@ namespace Tyuiu.OgorodnikDV.Sprint1.Task2.V13
             Console.WriteLine("***************************************************************************");
 
             double y = ds.ConvertMilesToKm(x);
-            Console.WriteLine("X = " + y.ToString("F3") + " километров");
+            Console.WriteLine("X = " + y + " километров");
             Console.ReadLine();
 
         }
