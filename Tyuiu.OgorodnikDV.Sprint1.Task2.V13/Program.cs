@@ -1,4 +1,5 @@
-﻿using Tyuiu.OgorodnikDV.Sprint1.Task2.V13.Lib;
+﻿using System;
+using Tyuiu.OgorodnikDV.Sprint1.Task2.V13.Lib;
 
 namespace Tyuiu.OgorodnikDV.Sprint1.Task2.V13
 {
@@ -35,7 +36,8 @@ namespace Tyuiu.OgorodnikDV.Sprint1.Task2.V13
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("X = " + ds.ConvertMilesToKm(x) + " километров");
+            double y = ds.ConvertMilesToKm(x);
+            Console.WriteLine("X = " + y.ToString("F3") + " километров");
             Console.ReadLine();
 
         }

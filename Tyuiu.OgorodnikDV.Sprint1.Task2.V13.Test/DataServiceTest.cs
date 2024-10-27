@@ -1,4 +1,5 @@
 using Tyuiu.OgorodnikDV.Sprint1.Task2.V13.Lib;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Tyuiu.OgorodnikDV.Sprint1.Task2.V13.Test
 {
@@ -10,8 +11,7 @@ namespace Tyuiu.OgorodnikDV.Sprint1.Task2.V13.Test
         {
             DataService ds = new DataService();
             int x = 2;
-            var res = ds.ConvertMilesToKm(x);
-            Assert.AreEqual(3.218, res);
+            Assert.AreEqual(3.2186, x);
         }
     }
 }
