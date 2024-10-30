@@ -12,7 +12,7 @@ namespace Tyuiu.OgorodnikDV.Sprint1.Task4.V13
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Тема: Class Math                                                        *");
             Console.WriteLine("* Задание #5                                                              *");
             Console.WriteLine("* Вариант #13                                                             *");
             Console.WriteLine("* Выполнила: Огородник Д. В. | ИСПб-24-1                                  *");
