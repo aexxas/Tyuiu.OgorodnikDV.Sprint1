@@ -6,7 +6,19 @@ namespace Tyuiu.OgorodnikDV.Sprint1.Task6.V18.Lib
     {
         public bool CheckNumber(string value)
         {
-            return int.TryParse(value, out int number) && number > 0;
+            try
+            {
+                int res = Convert.ToInt32(value);
+                if (res != null)
+                {
+                    return true;
+                }
+                return false;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }

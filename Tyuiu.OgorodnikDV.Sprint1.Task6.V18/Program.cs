@@ -24,22 +24,14 @@ namespace Tyuiu.OgorodnikDV.Sprint1.Task6.V18
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Введите текст: ");
-            string x = Console.ReadLine();
-
+            string x;
+            Console.WriteLine("* Введите число:                                                           ");
+            x = Console.ReadLine();
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("* Результат:                                                              *");
+            Console.WriteLine("* РЕЗУЛЬТАТ:                                                               ");
             Console.WriteLine("***************************************************************************");
-            bool res = ds.CheckNumber(x);
-            if (res == true)
-            {
-                Console.WriteLine("Натуральное число");
-            }
-            if (res == false)
-            {
-                Console.WriteLine("Не натуральное число");
-            }
-            Console.ReadLine();
+            Console.WriteLine("Результат - " + ds.CheckNumber(x!));
+            Console.ReadKey();
         }
     }
 }

@@ -8,11 +8,8 @@ namespace Tyuiu.OgorodnikDV.Sprint1.Task6.V18.Test
         [TestMethod]
         public void TestMethod1()
         {
-            string boolTest = "123";
-            DataService ds = new DataService();
-            var res = ds.CheckNumber(boolTest);
-            bool wait = true;
-            Assert.AreEqual(wait, res);
+            var ds = new DataService();
+            Assert.AreEqual(true, ds.CheckNumber("122"));
         }
     }
 }
